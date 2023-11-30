@@ -1,0 +1,36 @@
+:root {
+    --white-color: #fff;
+    --primary-color: #f00000;
+    --height-nav-one: 50px;
+    --height-nav-two: 60px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'agency-gothic-ct-cond-tt';
+    src: url('path/to/agency-gothic-ct-cond-tt.ttf') format('truetype');
+    /* Nếu font có định dạng khác, hãy chỉnh sửa phần format() phù hợp */
+}
+
+@font-face {
+    font-family: 'ff-meta-web-pro';
+    src: url('path/to/ff-meta-web-pro.ttf') format('truetype');
+    /* Nếu font có định dạng khác, hãy chỉnh sửa phần format() phù hợp */
+}
+
+body {
+    font-family: Oswald, sans-serif;
+}
+
+.p-32 {
+    padding: 32px 0;
+}
+
+.active {
+    color: var(--primary-color);
+}
